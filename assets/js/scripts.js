@@ -1,11 +1,1 @@
-$(function () {
-
-  // Main Menu reveal on phones
-  $('.menu-link').click(function (e) {
-		e.preventDefault();
-
-		$('.global-nav--list').slideToggle('fast');
-		return false;
-	});
-
-});
+$(function(){$(".menu-link").click(function(e){return e.preventDefault(),$(".global-nav__list").slideToggle("fast"),!1}),$(".c-map iframe").addClass("u-disable-pointer-events"),$(".c-map ").on("click",function(){$(".c-map iframe").removeClass("u-disable-pointer-events")}),$(".c-map").mouseleave(function(){$(".c-map iframe").addClass("u-disable-pointer-events")})});
